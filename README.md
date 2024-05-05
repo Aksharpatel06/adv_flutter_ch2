@@ -9,13 +9,13 @@ Material : - an open-source design system built and supported by Google designer
 
 Cupertino : - The Cupertino widgets in Flutter follow the iOS Human Interface Guidelines to implement the visual design of iOS
 
-Date Picker: A widget to select dates from a calendar-like interface, typically used for tasks like picking a birthday or scheduling events. In Flutter, you use 'showDatePicker' to display a date picker dialog.
+Date Picker : - A widget to select dates from a calendar-like interface, typically used for tasks like picking a birthday or scheduling events. In Flutter, you use 'showDatePicker' to display a date picker dialog.
 
 
-Time Picker: A widget to select a specific time, often used for alarms or setting appointment times. Flutter provides 'showTimePicker' to display a time picker dialog.
+Time Picker : - A widget to select a specific time, often used for alarms or setting appointment times. Flutter provides 'showTimePicker' to display a time picker dialog.
 
 
-Dialog Box: A pop-up or modal window that appears over the current screen to present information or ask for user interaction. Flutter offers various types, such as 'AlertDialog' for alerts and 'SimpleDialog' for simple choices.
+Dialog Box : - A pop-up or modal window that appears over the current screen to present information or ask for user interaction. Flutter offers various types, such as 'AlertDialog' for alerts and 'SimpleDialog' for simple choices.
 
 
 
