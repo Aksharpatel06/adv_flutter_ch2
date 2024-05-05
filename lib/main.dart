@@ -6,8 +6,11 @@ import 'package:provider/provider.dart';
 import 'ch_2/task_1/view/timepicker/time_picker_screen.dart';
 
 void main() {
-  runApp(
-      MultiProvider(providers: [ChangeNotifierProvider(create: (context) => PickerProvider(),)],child: MyApp()));
+  runApp(MultiProvider(providers: [
+    ChangeNotifierProvider(
+      create: (context) => PickerProvider(),
+    )
+  ], child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
@@ -17,24 +20,36 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        timePickerTheme: TimePickerThemeData(
-            cancelButtonStyle: ButtonStyle(foregroundColor: MaterialStateColor.resolveWith((states) => Colors.green)),
-            confirmButtonStyle: ButtonStyle(foregroundColor: MaterialStateColor.resolveWith((states) => Colors.green)),
-            inputDecorationTheme: InputDecorationTheme(fillColor: MaterialStateColor.resolveWith((states) => Colors.green)),
-        ),
-        datePickerTheme: DatePickerThemeData(
-            shadowColor: MaterialStateColor.resolveWith((states) => Colors.grey),
-            cancelButtonStyle: ButtonStyle(foregroundColor: MaterialStateColor.resolveWith((states) => Colors.green)),
-          confirmButtonStyle: ButtonStyle(foregroundColor: MaterialStateColor.resolveWith((states) => Colors.green)),
-          dayOverlayColor: MaterialStateColor.resolveWith((states) => Color(0xffE5EADD)),
-          inputDecorationTheme: InputDecorationTheme(fillColor: MaterialStateColor.resolveWith((states) => Colors.green)),
-          rangePickerHeaderBackgroundColor: MaterialStateColor.resolveWith((states) => Colors.green.shade100)
-        ),
-        appBarTheme:  AppBarTheme(
-          color: Colors.green.shade300,
-          titleTextStyle: TextStyle(color: Colors.white,fontSize: 25)
-        )
-      ),
+          timePickerTheme: TimePickerThemeData(
+            cancelButtonStyle: ButtonStyle(
+                foregroundColor:
+                    MaterialStateColor.resolveWith((states) => Colors.green)),
+            confirmButtonStyle: ButtonStyle(
+                foregroundColor:
+                    MaterialStateColor.resolveWith((states) => Colors.green)),
+            inputDecorationTheme: InputDecorationTheme(
+                fillColor:
+                    MaterialStateColor.resolveWith((states) => Colors.green)),
+          ),
+          datePickerTheme: DatePickerThemeData(
+              shadowColor:
+                  MaterialStateColor.resolveWith((states) => Colors.grey),
+              cancelButtonStyle: ButtonStyle(
+                  foregroundColor:
+                      MaterialStateColor.resolveWith((states) => Colors.green)),
+              confirmButtonStyle: ButtonStyle(
+                  foregroundColor:
+                      MaterialStateColor.resolveWith((states) => Colors.green)),
+              dayOverlayColor:
+                  MaterialStateColor.resolveWith((states) => Color(0xffE5EADD)),
+              inputDecorationTheme: InputDecorationTheme(
+                  fillColor:
+                      MaterialStateColor.resolveWith((states) => Colors.green)),
+              rangePickerHeaderBackgroundColor: MaterialStateColor.resolveWith(
+                  (states) => Colors.green.shade100)),
+          appBarTheme: AppBarTheme(
+              color: Colors.green.shade300,
+              titleTextStyle: TextStyle(color: Colors.white, fontSize: 25))),
       debugShowCheckedModeBanner: false,
       home: TimePickerScreen(),
     );

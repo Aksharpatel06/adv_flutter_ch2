@@ -3,6 +3,9 @@ import 'package:adv_flutter_ch2/ch_2/task_1/view/timepicker/componects/time_pick
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+
+import 'componects/cupertino_action_sheet.dart';
+
 class TimePickerScreen extends StatelessWidget {
   const TimePickerScreen({super.key});
 
@@ -18,52 +21,30 @@ class TimePickerScreen extends StatelessWidget {
             children: [
               IndexedStack(
                 index: (Provider.of<PickerProvider>(context, listen: true)
-                    .pickerindex >=
-                    0)
+                                .pickerindex >=
+                            0 &&
+                        Provider.of<PickerProvider>(context, listen: true)
+                                .pickerindex <=
+                            2)
                     ? Provider.of<PickerProvider>(context, listen: true)
-                    .pickerindex
+                        .pickerindex
                     : Provider.of<PickerProvider>(context, listen: true)
-                    .pickerindex=0,
+                        .pickerindex = 0,
                 alignment: Alignment.center,
                 children: [
+                  //TIME PICKER
                   timepicker(context),
+
+                  //CUPERTINO TIMER PICKER
                   SizedBox(
                     height: 400,
                     child: CupertinoTimerPicker(
                       onTimerDurationChanged: (value) {},
                     ),
                   ),
-                  CupertinoActionSheet(
-                    title: Text('Favorite Dessert',style: TextStyle(fontWeight: FontWeight.w600,fontSize: 20),),
-                    message: Column(
-                      children: [
-                        SizedBox(height: 10,),
-                        Text('Please select the best dessert from the options belows',style: TextStyle(fontSize: 15),),
-                        SizedBox(height: 10,),
-                        Divider(),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: Text('Profiteroles',style: TextStyle(color: Colors.blueAccent,letterSpacing: 1.5,fontSize: 22,fontWeight: FontWeight.w600),),
-                        ),
-                        Divider(),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: Text('Cannolis',style: TextStyle(color: Colors.blueAccent,fontSize: 22,letterSpacing: 1.5,fontWeight: FontWeight.w600),),
-                        ),
-                        Divider(),
-                        Padding(
-                          padding: const EdgeInsets.symmetric(vertical: 8.0),
-                          child: Text('Trifle',style: TextStyle(color: Colors.blueAccent,fontSize: 22,letterSpacing: 1.5,fontWeight: FontWeight.w600),),
-                        ),
-                      ],
-                    ),
-                    cancelButton: CupertinoButton(
-                      onPressed: () {
 
-                      },
-                      child: Text('Cancel',style: TextStyle(color: Colors.blueAccent,fontSize: 22,letterSpacing: 1.5,fontWeight: FontWeight.bold),),
-                    ),
-                  )
+                  //CUPERTINO ACTION SHEET
+                  cupertinoActionSheet(context),
                 ],
               ),
               Row(

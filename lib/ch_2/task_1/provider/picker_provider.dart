@@ -1,21 +1,21 @@
 import 'package:flutter/cupertino.dart';
 
-class PickerProvider extends ChangeNotifier{
-  int pickerindex=0;
-  int dialogsradioindex=0;
+class PickerProvider extends ChangeNotifier {
+  int pickerindex = 0;
+  int dialogsradioindex = 0;
 
-  void changeindex(){
+  void changeindex() {
     pickerindex++;
     notifyListeners();
   }
-  void backindex(){
+
+  void backindex() {
     pickerindex--;
     notifyListeners();
   }
 
-  void changeringtone(value)
-  {
-    dialogsradioindex=value;
+  void changeringtone(value) {
+    dialogsradioindex = value;
     notifyListeners();
   }
 }

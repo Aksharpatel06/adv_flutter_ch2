@@ -22,19 +22,28 @@ class DatePickerScreen extends StatelessWidget {
               IndexedStack(
                 index: (Provider.of<PickerProvider>(context, listen: true)
                             .pickerindex >=
-                        0 && Provider.of<PickerProvider>(context, listen: true)
-                    .pickerindex <=
-                    3)
+                        0 &&
+                        Provider.of<PickerProvider>(context, listen: true)
+                                .pickerindex <=
+                            3)
                     ? Provider.of<PickerProvider>(context, listen: true)
                         .pickerindex
                     : Provider.of<PickerProvider>(context, listen: true)
                     .pickerindex=0,
                 alignment: Alignment.center,
                 children: [
-                  DatePickerDialog(
-                      firstDate: DateTime(1950), lastDate: DateTime(2050)),
+                  //DATE PICKER DIALOG
+
+                   DatePickerDialog(
+                        firstDate: DateTime(1950), lastDate: DateTime(2050)),
+
+                  //SHOW DATE PICKER
                   datepicker(context),
+
+                  //ALEARTDIALONG
                   phoneringtonedialogs(context),
+
+                  //CUPERTINO DATE PICKER
                   SizedBox(
                     height: 400,
                     child: CupertinoDatePicker(
