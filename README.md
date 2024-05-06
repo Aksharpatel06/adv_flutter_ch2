@@ -28,6 +28,18 @@ Features :
 
 * Localization: It automatically supports localization, displaying the date in a way that's familiar to users based on their locale.</h6>
 
+<p align="center">
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/d25fdff6-b83d-4cb1-a9fd-16160776b979' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/94cefaca-a92c-4bff-a5b2-8404a5b7c94f' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/b13ecb65-4aab-4388-a019-6e3d6f8614a4' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/034c77cf-9a68-486c-a252-84453fc0acb0' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_1">👉 📚 Go to dart file 📚 👈</a>
+  </div>
+  
+</p>
+
 ## Time Picker 
 
 A widget to select a specific time, often used for alarms or setting appointment times. Flutter provides 'showTimePicker' to display a time picker dialog.
@@ -49,10 +61,7 @@ Features :
 </h6>
 
 <p align="center">
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/d25fdff6-b83d-4cb1-a9fd-16160776b979' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/94cefaca-a92c-4bff-a5b2-8404a5b7c94f' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/b13ecb65-4aab-4388-a019-6e3d6f8614a4' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
-  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/034c77cf-9a68-486c-a252-84453fc0acb0' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+
   <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/fa071b4a-7465-484a-a858-e68e2beb53cc' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
   <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/e16208b1-2edb-4714-a9bc-b34b0eefd3ee' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
   <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/daa7562c-b720-461d-9e15-44c23e193285' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
