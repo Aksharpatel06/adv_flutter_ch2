@@ -13,6 +13,7 @@
 
 A widget to select dates from a calendar-like interface, typically used for tasks like picking a birthday or scheduling events. In Flutter, you use 'showDatePicker' to display a date picker dialog.
 
+Features :
 <h6> 
 
 * Date Selection : The date picker allows users to choose a date, typically through a calendar interface where users can navigate through months and years.
@@ -30,6 +31,8 @@ A widget to select dates from a calendar-like interface, typically used for task
 ## Time Picker 
 
 A widget to select a specific time, often used for alarms or setting appointment times. Flutter provides 'showTimePicker' to display a time picker dialog.
+
+Features :
 
 <h6>
   
