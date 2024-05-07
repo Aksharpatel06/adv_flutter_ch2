@@ -14,7 +14,7 @@ void main() {
     ChangeNotifierProvider(
       create: (context) => PlatForm(),
     ),
-  ], child: MyApp()));
+  ], child: const MyApp()));
 }
 //TASK 2.1
 // class MyApp extends StatelessWidget {
@@ -67,7 +67,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AdaptiveWidegt();
+    return const AdaptiveWidegt();
   }
 }
 

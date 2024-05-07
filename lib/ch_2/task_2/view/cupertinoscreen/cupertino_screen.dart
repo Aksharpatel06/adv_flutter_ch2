@@ -18,7 +18,7 @@ class CupertinoScreen extends StatelessWidget {
     return CupertinoPageScaffold(
       backgroundColor: secondarycolor,
       navigationBar: CupertinoNavigationBar(
-        middle: Text('iOS'),
+        middle: const Text('iOS Platform'),
         backgroundColor: primarycolor,
         trailing: CupertinoSwitch(
           value: Provider.of<PlatForm>(context, listen: true).isAndoid,
