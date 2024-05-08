@@ -86,7 +86,9 @@ Features :
 </h5>
 
 <p><img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/b13ecb65-4aab-4388-a019-6e3d6f8614a4' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-## video
+
+## Video
+
 <video src="https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/1cd1769a-1475-4377-9b28-7d42727d893a" ></video>
 
 <h3 align="center">🔥 2.2 Cupertino Widgets (Plarform Conevrter using provider) 🔥</h3>
