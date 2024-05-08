@@ -1,9 +1,10 @@
 import 'package:adv_flutter_ch2/ch_2/task_1/provider/picker_provider.dart';
-import 'package:adv_flutter_ch2/utils/adaptive.dart';
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'ch_2/task_2/provider/platform.dart';
+import 'ch_2/task_3/view/cupertinolistsection/cupertino_list_section.dart';
 
 
 void main() {
@@ -62,12 +63,26 @@ void main() {
 
 
 //TASK 2.2
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return const AdaptiveWidegt();
+//   }
+// }
+
+//task 2.3
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const AdaptiveWidegt();
+    return CupertinoApp(
+      debugShowCheckedModeBanner: false,
+      home: CupertinoListSectionScreen(),
+    );
   }
 }
+
 

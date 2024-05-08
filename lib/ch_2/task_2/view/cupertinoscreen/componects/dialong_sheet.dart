@@ -48,7 +48,7 @@ Padding button(BuildContext context) {
             color: buttoncolor,
             child: Text('Cupertion Action Sheet'),
             onPressed: () {
-              showCupertinoDialog(
+              showCupertinoModalPopup(
                 context: context,
                 builder: (context) => CupertinoActionSheet(
                   title: Text("Welcome to iOS platform"),
