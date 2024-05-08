@@ -59,7 +59,7 @@ Padding materialButton(BuildContext context) {
               showDialog(
                 context: context,
                 builder: (context) => AlertDialog(
-                  title: const Text("Welcome to iOS platform"),
+                  title: const Text("Welcome to Android platform"),
                   actions: [
                     TextButton(
                         onPressed: () {
