@@ -1,6 +1,6 @@
 # Advance Flutter Chapter 2
 
-<h3 align="center">🔥 Date Picker, Time Picker, Dialog Box using Material & Cupertino. 🔥</h3>
+<h3 align="center">🔥 2.1 Date Picker, Time Picker, Dialog Box using Material & Cupertino. 🔥</h3>
 
 #
 
@@ -86,5 +86,43 @@ Features :
 </h5>
 
 <p><img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/b13ecb65-4aab-4388-a019-6e3d6f8614a4' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;</p>
-
+## video
 <video src="https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/1cd1769a-1475-4377-9b28-7d42727d893a" ></video>
+
+<h3 align="center">🔥 2.2 Cupertino Widgets (Plarform Conevrter using provider) 🔥</h3>
+
+#
+
+* In Flutter, Cupertino widgets refer to a set of widgets designed to emulate the look and feel of iOS applications. These widgets follow the design language established by Apple for iOS   apps, providing a consistent and familiar user experience for iOS users.
+
+* Cupertino widgets offer UI components such as buttons, navigation bars, sliders, switches, and more, all styled according to iOS design principles. Developers can use these widgets to   build cross-platform Flutter applications that closely resemble native iOS apps.
+
+Features
+
+* Adaptive Widgets: The app leverages adaptive widgets to dynamically adjust the UI components based on the selected platform, ensuring a consistent and native user experience.
+* Platform Switcher: Users can effortlessly switch between Material Design and Cupertino Design UI platforms using a simple toggle switch.
+* Provider Package Integration: State management for the UI platform switching logic is handled efficiently with the Provider package, offering a clean and scalable solution.
+
+## Cupertino App with adaptive widgets
+<p>
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/68037744-cc7c-4aaa-adbc-b35928467eb1' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/c47647e3-45ac-446c-8562-74811089c6f4' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/fd315318-090a-4bfa-8293-59b5b52ab417' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/0d3755b6-5c56-4583-8fe0-cf3e08aa0215' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_2/view/cupertinoscreen">👉 📚 Go to dart file 📚 👈</a>
+  </div>
+</p>
+
+## Material App with adaptive widgets
+<p>
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/ced30932-6a0d-4cd9-97dc-149d9c4c500b' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/f6e16250-9088-49b0-bcc7-a478823605bf' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/85ffa322-4d46-4111-a5c3-4e8ec2ef6fba' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_2/view/materialscreen">👉 📚 Go to dart file 📚 👈</a>
+  </div>
+  
+  <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/7fd62a41-189e-4473-93bf-7f9d95eb9a6f'></video>
+</p>
