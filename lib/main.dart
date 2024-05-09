@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'ch_2/task_2/provider/platform.dart';
-import 'ch_2/task_3/view/cupertinolistsection/cupertino_list_section.dart';
+import 'ch_2/task_3/view/cupertinolistsection/task_1/cupertino_list_section.dart';
+import 'ch_2/task_3/view/cupertinolistsection/task_2/list_section.dart';
 
 
 void main() {
@@ -80,7 +81,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: CupertinoListSectionScreen(),
+      home: ListSection(),
     );
   }
 }
