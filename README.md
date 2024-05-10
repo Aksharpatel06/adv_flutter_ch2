@@ -128,3 +128,41 @@ Features
   
   <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/7fd62a41-189e-4473-93bf-7f9d95eb9a6f'></video>
 </p>
+
+
+<h3 align="center">🔥 2.3 CupertinoSliverNavigationBar  & CupertinoListTile 🔥</h3>
+
+#
+
+* The CupertinoSliverNavigationBar widget in Flutter is primarily used for creating navigation bars in iOS-style scrollable app bars. It's typically used within a CustomScrollView as the sliver property to provide navigation controls and title within the app's scrolling content.
+
+
+Features :
+
+
+<h5>
+
+* Effortless Integration: Seamless integration of the CupertinoSliverNavigationBar widget into your Flutter project, allowing for smooth navigation experiences with minimal setup.
+
+* Native Design Consistency: Adheres to the design principles of the iOS platform, ensuring a consistent and familiar user interface across iOS devices.
+
+* Native iOS Design: Designed to match the native iOS design guidelines, ensuring a consistent and intuitive user interface on iOS devices.
+
+* Easy Integration**: Simple integration into your Flutter project, allowing for the creation of list items with minimal setup.
+
+* "In my iOS settings screen example, I've leveraged CupertinoListTile.notched and CupertinoListSection.groupInset to improve user engagement and streamline content presentation."
+
+
+</h5>
+
+<p>
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/d32e51df-d724-41fe-9c07-0155f1046ee7' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/eee774f1-4a04-41fc-9636-386e3a838199' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/6fb9185f-5f6b-4525-9321-b3a10cd0dc31' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_3/view">👉 📚 Go to dart file 📚 👈</a>
+  </div>
+  
+  <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/a0389b94-652c-41ef-bcc5-4604780cf90c'></video>
+</p>
