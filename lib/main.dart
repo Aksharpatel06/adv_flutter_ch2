@@ -1,12 +1,12 @@
 import 'package:adv_flutter_ch2/ch_2/task_1/provider/picker_provider.dart';
+import 'package:adv_flutter_ch2/ch_2/task_4/provider/sliding_segment_provider.dart';
+import 'package:adv_flutter_ch2/ch_2/task_4/view/cupertinoslider/cupertino_slider.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'ch_2/task_2/provider/platform.dart';
-import 'ch_2/task_3/view/cupertinolistsection/task_1/cupertino_list_section.dart';
-import 'ch_2/task_3/view/cupertinolistsection/task_2/list_section.dart';
-
+import 'ch_2/task_4/provider/sliding_provider.dart';
+import 'ch_2/task_4/view/cupertinobottomtab/cupertino_bottom_tab.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
@@ -16,6 +16,12 @@ void main() {
     ChangeNotifierProvider(
       create: (context) => PlatForm(),
     ),
+    ChangeNotifierProvider(
+      create: (context) => SlidingSegmentProvider(),
+    ),
+    ChangeNotifierProvider(
+      create: (context) => SlidingProvider(),
+    )
   ], child: const MyApp()));
 }
 //TASK 2.1
@@ -62,7 +68,6 @@ void main() {
 //   }
 // }
 
-
 //TASK 2.2
 // class MyApp extends StatelessWidget {
 //   const MyApp({super.key});
@@ -74,16 +79,31 @@ void main() {
 // }
 
 //task 2.3
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return CupertinoApp(
+//       debugShowCheckedModeBanner: false,
+//       home: ListSectionScreen(),
+//     );
+//   }
+// }
+
+//task 2.4
+
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
     return CupertinoApp(
+      theme: CupertinoThemeData(
+        brightness: Provider.of<SlidingProvider>(context).themebrigtness,
+      ),
       debugShowCheckedModeBanner: false,
-      home: ListSection(),
+      home: const CupertinoBottomTab(),
     );
   }
 }
-
-

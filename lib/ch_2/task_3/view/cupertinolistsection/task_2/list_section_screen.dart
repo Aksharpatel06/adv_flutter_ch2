@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
-class ListSection extends StatelessWidget {
-  const ListSection({super.key});
+class ListSectionScreen extends StatelessWidget {
+  const ListSectionScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
