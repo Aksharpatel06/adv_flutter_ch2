@@ -168,7 +168,7 @@ Features :
 </p>
 
 
-<h3 align="center">🔥 2.3 CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl 🔥</h3>
+<h3 align="center">🔥 2.4 CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl 🔥</h3>
 
 
 * CupertinoTabBar : - This widget represents a tab bar similar to the one you'd find in iOS apps. It typically sits at the bottom of the screen and allows users to switch between different sections or views of the app. Each tab in the bar typically corresponds to a different page or screen within the app.
