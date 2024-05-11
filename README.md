@@ -166,3 +166,28 @@ Features :
   
   <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/a0389b94-652c-41ef-bcc5-4604780cf90c'></video>
 </p>
+
+
+<h3 align="center">🔥 2.3 CupertinoTabBar, CupertinoSlider & CupertinoSlidingSegmentedControl 🔥</h3>
+
+
+* CupertinoTabBar : - This widget represents a tab bar similar to the one you'd find in iOS apps. It typically sits at the bottom of the screen and allows users to switch between different sections or views of the app. Each tab in the bar typically corresponds to a different page or screen within the app.
+
+* CupertinoSlider : - This widget is used to allow users to select a value from a range by sliding a thumb along a horizontal track. It resembles the slider component in iOS. It's commonly used for selecting values like volume, brightness, or any other continuous value within a specified range.
+
+* CupertinoSlidingSegmentedControl : - This widget is a segmented control that allows users to choose from a fixed number of mutually exclusive options. It's similar to a tab bar, but it typically appears horizontally aligned and allows only one option to be selected at a time. Users can swipe left or right to select different options. It's useful for presenting a small set of options where only one can be active at any given time.
+
+<p>
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/7f150bf1-2058-4330-8328-c50c7e51bb7a' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/2e83901d-8706-4a82-91b8-4bab2a478b3e' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/4c1aab7e-5927-445a-bb0a-47652af64fef' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/a57d8c64-29b7-4fd4-94c3-962d457acf43' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/9e4d3fc9-1acf-4b69-b291-c1ed99f01846' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/99c3b179-4d03-4d3a-99fc-b0b1148a98e0' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  
+  <div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_4">👉 📚 Go to dart file 📚 👈</a>
+  </div>
+  
+  <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/8d4ceb87-1b9a-49b4-a449-c1295c56433d'></video>
+</p>
