@@ -1,18 +1,22 @@
 import 'package:adv_flutter_ch2/ch_2/task_1/provider/picker_provider.dart';
 import 'package:adv_flutter_ch2/ch_2/task_4/provider/sliding_segment_provider.dart';
-import 'package:adv_flutter_ch2/ch_2/task_4/view/cupertinoslider/cupertino_slider.dart';
-import 'package:adv_flutter_ch2/ch_2/task_5/view/home_screen.dart';
+import 'package:adv_flutter_ch2/ch_2/task_5/view/task_1/home_screen.dart';
+import 'package:adv_flutter_ch2/ch_2/task_5/view/task_2/provider/bottom_provider.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'ch_2/task_2/provider/platform.dart';
 import 'ch_2/task_4/provider/sliding_provider.dart';
-import 'ch_2/task_4/view/cupertinobottomtab/cupertino_bottom_tab.dart';
+import 'ch_2/task_5/view/task_2/view/bottom_navigation_bar_screen.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
     ChangeNotifierProvider(
       create: (context) => PickerProvider(),
+    ),
+    ChangeNotifierProvider(
+      create: (context) => BottomProvider(),
     ),
     ChangeNotifierProvider(
       create: (context) => PlatForm(),
@@ -109,17 +113,27 @@ void main() {
 //   }
 // }
 
-
-
-//task 2.5
+//task 2.5.1
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return const CupertinoApp(
+//       debugShowCheckedModeBanner: false,
+//       home: HomeScreen(),
+//     );
+//   }
+// }
+//task 2.5.2
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const CupertinoApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      home: BottomNavigationBarScreen(),
     );
   }
 }
