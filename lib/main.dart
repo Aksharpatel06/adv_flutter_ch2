@@ -1,6 +1,7 @@
 import 'package:adv_flutter_ch2/ch_2/task_1/provider/picker_provider.dart';
 import 'package:adv_flutter_ch2/ch_2/task_4/provider/sliding_segment_provider.dart';
 import 'package:adv_flutter_ch2/ch_2/task_4/view/cupertinoslider/cupertino_slider.dart';
+import 'package:adv_flutter_ch2/ch_2/task_5/view/home_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:provider/provider.dart';
 
@@ -92,18 +93,33 @@ void main() {
 // }
 
 //task 2.4
+//
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return CupertinoApp(
+//       theme: CupertinoThemeData(
+//         brightness: Provider.of<SlidingProvider>(context).themebrigtness,
+//       ),
+//       debugShowCheckedModeBanner: false,
+//       home: const CupertinoBottomTab(),
+//     );
+//   }
+// }
 
+
+
+//task 2.5
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoApp(
-      theme: CupertinoThemeData(
-        brightness: Provider.of<SlidingProvider>(context).themebrigtness,
-      ),
+    return const CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: const CupertinoBottomTab(),
+      home: HomeScreen(),
     );
   }
 }
