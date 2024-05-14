@@ -191,3 +191,43 @@ Features :
   
   <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/8d4ceb87-1b9a-49b4-a449-c1295c56433d'></video>
 </p>
+
+
+
+<h3 align="center">🔥 2.5 Page View & BottomNavigationBar 🔥</h3>
+
+
+PageView
+* PageView is a widget that allows the user to swipe horizontally or vertically through a list of pages. It's often used to create onboarding screens, image carousels, or other multi-page interfaces.
+
+Key Properties:
+<h5>
+  
+* children: A list of widgets to display as pages.
+* controller: A PageController to control the scroll behavior and listen to page changes.
+* scrollDirection: The axis along which the pages will scroll (horizontal by default).
+</h5>
+
+<video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/cdb10de4-3884-47a0-8829-bfb98e55aacc'></video>
+
+<div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_5/view/task_1">👉 📚 Go to dart file 📚 👈</a>
+  </div>
+
+BottomNavigationBar
+* BottomNavigationBar is a widget that displays a bar at the bottom of the screen with multiple items. It's typically used for navigation in an app with a few top-level views.
+
+Key Properties:
+<h5>
+
+* items: A list of BottomNavigationBarItem widgets to display in the bar.
+* currentIndex: The index of the selected item.
+* onTap: A callback that's called when an item is tapped.
+* type: Defines the layout and behavior of the bar, such as fixed or shifting.
+</h5>
+
+<video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/6e0f7939-74d9-402f-9b23-be84531291c8'></video>
+
+<div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_5/view/task_2">👉 📚 Go to dart file 📚 👈</a>
+  </div>
