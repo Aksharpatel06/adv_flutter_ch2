@@ -9,6 +9,7 @@ import 'package:provider/provider.dart';
 import 'ch_2/task_2/provider/platform.dart';
 import 'ch_2/task_4/provider/sliding_provider.dart';
 import 'ch_2/task_5/view/task_2/view/bottom_navigation_bar_screen.dart';
+import 'ch_2/task_6/view/cupertinoactionsheet/Cupertino_Action_Sheet.dart';
 import 'ch_2/task_6/view/cupertinocontextmenu/cupertino_context_menu_screen.dart';
 
 void main() {
@@ -147,7 +148,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return CupertinoApp(
       debugShowCheckedModeBanner: false,
-      home: CupertinoContextMenuScreen(),
+      home: CupertinoActionSheetScreen(),
     );
   }
 }
