@@ -230,4 +230,48 @@ Key Properties:
 
 <div align="center">
     <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_5/view/task_2">👉 📚 Go to dart file 📚 👈</a>
-  </div>
+</div>
+
+<h3 align="center">🔥 2.6 CupertinoActionSheet & CupertinoContextMenu 🔥</h3>
+
+CupertinoActionSheet
+* The CupertinoActionSheet widget in Flutter is used to present a modal action sheet, which typically slides up from the bottom of the screen. It provides a way to offer users a set of choices related to the current context. Action sheets are commonly used in iOS apps for user actions that need to be confirmed or for presenting multiple options.
+
+Key Features:
+<h5>
+
+* Title: Optional title for the action sheet.
+* Message: Optional message providing additional information about the choices.
+* Actions: A list of actions (buttons) that the user can choose from.
+* Cancel Button: An optional button to dismiss the action sheet without making a choice.</h5>
+<p>
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/abc373b2-1015-4320-9b84-64ee4c150893' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/bbce45ec-1c98-419d-97a5-b92a985c4092' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/9c3ea9b6-b6c9-4efe-9932-59a345e02939' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/7b62c523-c268-44c4-aae3-0700bb7df9be'></video>
+
+<div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_6/view/cupertinocontextmenu">👉 📚 Go to dart file 📚 👈</a>
+</div>
+
+CupertinoContextMenu
+* The CupertinoContextMenu widget in Flutter provides a full-screen modal overlay that appears when the user long-presses on an item. This widget is used to display contextual actions for an item, similar to a context menu in desktop applications or the long-press context menu in iOS.
+
+Key Features:
+<h5>
+
+* Child: The widget that triggers the context menu when long-pressed.
+* Actions: A list of contextual actions to display.</h5>
+
+<p>
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/1d72f282-7d7a-415b-80d0-018cea4c65ce' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/e5ab0564-9ab3-4e98-9a9f-47ee1515cc00' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/149c2bcd-8b42-4c59-bcde-3f9fb5b700b1'></video>
+
+<div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_6/view/cupertinoactionsheet">👉 📚 Go to dart file 📚 👈</a>
+</div>
