@@ -4,7 +4,6 @@ import 'package:flutter/widgets.dart';
 
 import '../../modal/gallery_modal.dart';
 import '../../modal/imgdata.dart';
-import 'componects/sub_head_text.dart';
 
 GalleryModal? galleryModal;
 class CupertinoContextMenuScreen extends StatelessWidget {
