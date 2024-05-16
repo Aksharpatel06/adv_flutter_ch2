@@ -36,7 +36,7 @@ Features :
 
 ## Time Picker 
 
-A widget to select a specific time, often used for alarms or setting appointment times. Flutter provides 'showTimePicker' to display a time picker dialog.
+A widget to select a specific time, often used for alarms or setting appointment times. Flutter provides `showTimePicker` to display a time picker dialog.
 
 Features :
 
@@ -286,10 +286,6 @@ Material Design Date Picker (Android)
   <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/06fc5123-931b-47c9-886a-72e9f99743a3' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
 </p>
 
-<div align="center">
-    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_6/view/cupertinoactionsheet">👉 📚 Go to dart file 📚 👈</a>
-</div>
-
 Cupertino Date Picker (iOS)
 * The Cupertino design date picker is used for iOS and follows Apple's Human Interface Guidelines. This is implemented using `CupertinoDatePicker` and displayed using
 `showCupertinoModalPopup`.
@@ -300,6 +296,6 @@ Cupertino Date Picker (iOS)
 </p>
 
 <div align="center">
-    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_6/view/cupertinoactionsheet">👉 📚 Go to dart file 📚 👈</a>
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_7">👉 📚 Go to dart file 📚 👈</a>
 </div>
 <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/5c608b9f-c566-4150-9779-6699dd14716a'></video>
