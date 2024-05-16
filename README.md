@@ -275,3 +275,31 @@ Key Features:
 <div align="center">
     <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_6/view/cupertinoactionsheet">👉 📚 Go to dart file 📚 👈</a>
 </div>
+
+<h3 align="center">🔥 2.7 Date Picker (Android & iOS) 🔥</h3>
+
+Material Design Date Picker (Android)
+* The Material design date picker is used for Android and follows Google's Material Design guidelines. This is implemented using the `showDatePicker` function in Flutter.
+
+<p>
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/cdfed87e-cd26-447a-9449-16c46708e322' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/06fc5123-931b-47c9-886a-72e9f99743a3' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_6/view/cupertinoactionsheet">👉 📚 Go to dart file 📚 👈</a>
+</div>
+
+Cupertino Date Picker (iOS)
+* The Cupertino design date picker is used for iOS and follows Apple's Human Interface Guidelines. This is implemented using `CupertinoDatePicker` and displayed using
+`showCupertinoModalPopup`.
+
+<p>
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/dbecce8b-f7c0-41d8-9f06-fc36a7e1ef79' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/22f11218-9ee3-4653-a310-bf717be23b31' width = 250>&nbsp;&nbsp;&nbsp;&nbsp;
+</p>
+
+<div align="center">
+    <a href="https://github.com/Aksharpatel06/adv_flutter_ch2/tree/master/lib/ch_2/task_6/view/cupertinoactionsheet">👉 📚 Go to dart file 📚 👈</a>
+</div>
+<video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/5c608b9f-c566-4150-9779-6699dd14716a'></video>
