@@ -11,6 +11,8 @@ import 'ch_2/task_4/provider/sliding_provider.dart';
 import 'ch_2/task_5/view/task_2/view/bottom_navigation_bar_screen.dart';
 import 'ch_2/task_6/view/cupertinoactionsheet/Cupertino_Action_Sheet.dart';
 import 'ch_2/task_6/view/cupertinocontextmenu/cupertino_context_menu_screen.dart';
+import 'ch_2/task_7/provider/platfrom_provider.dart';
+import 'utils/platfrom_adaptive.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
@@ -28,7 +30,8 @@ void main() {
     ),
     ChangeNotifierProvider(
       create: (context) => SlidingProvider(),
-    )
+    ),
+    ChangeNotifierProvider(create: (context) => PlatfromProvider(),)
   ], child: const MyApp()));
 }
 //TASK 2.1
@@ -141,14 +144,23 @@ void main() {
 // }
 
 //task 2.6
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return CupertinoApp(
+//       debugShowCheckedModeBanner: false,
+//       home: CupertinoActionSheetScreen(),
+//     );
+//   }
+// }
+//
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return CupertinoApp(
-      debugShowCheckedModeBanner: false,
-      home: CupertinoActionSheetScreen(),
-    );
+    return const PlatfromAdaptive();
   }
 }
