@@ -300,7 +300,7 @@ Cupertino Date Picker (iOS)
 </div>
 <video src='https://github.com/Aksharpatel06/adv_flutter_ch2/assets/143181114/5c608b9f-c566-4150-9779-6699dd14716a'></video>
 
-<h3 align="center">🔥 2.8 D Sliver Widgets 🔥</h3>
+<h3 align="center">🔥 2.8 Sliver Widgets 🔥</h3>
 
 
 In Flutter, Sliver Widgets are a set of specialized widgets that allow for highly customizable and efficient scrolling effects. They are particularly useful for creating scrollable areas that can change their appearance or behavior based on the current scroll offset. Slivers are a key component of the `CustomScrollView` widget, which enables the creation of complex scrolling interfaces.
