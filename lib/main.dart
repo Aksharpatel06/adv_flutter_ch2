@@ -1,18 +1,13 @@
 import 'package:adv_flutter_ch2/ch_2/task_1/provider/picker_provider.dart';
 import 'package:adv_flutter_ch2/ch_2/task_4/provider/sliding_segment_provider.dart';
-import 'package:adv_flutter_ch2/ch_2/task_5/view/task_1/home_screen.dart';
 import 'package:adv_flutter_ch2/ch_2/task_5/view/task_2/provider/bottom_provider.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'ch_2/task_2/provider/platform.dart';
 import 'ch_2/task_4/provider/sliding_provider.dart';
-import 'ch_2/task_5/view/task_2/view/bottom_navigation_bar_screen.dart';
-import 'ch_2/task_6/view/cupertinoactionsheet/Cupertino_Action_Sheet.dart';
-import 'ch_2/task_6/view/cupertinocontextmenu/cupertino_context_menu_screen.dart';
 import 'ch_2/task_7/provider/platfrom_provider.dart';
-import 'utils/platfrom_adaptive.dart';
+import 'ch_2/task_8/view/sliverscreen/sliver_screen.dart';
 
 void main() {
   runApp(MultiProvider(providers: [
@@ -156,11 +151,26 @@ void main() {
 //   }
 // }
 //
+
+//task2.7
+// class MyApp extends StatelessWidget {
+//   const MyApp({super.key});
+//
+//   @override
+//   Widget build(BuildContext context) {
+//     return const PlatfromAdaptive();
+//   }
+// }
+
+//task2.8
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return const PlatfromAdaptive();
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      home: SliverScreen(),
+    );
   }
 }
